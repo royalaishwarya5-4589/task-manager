@@ -1,45 +1,42 @@
-# TaskFlow — Task Management Application
+# TaskFlow — Full-Stack Task Management System
 
-TaskFlow is a full-stack task management application built with Next.js, TypeScript, and Supabase.
+A modern, database-driven task management application built with **Next.js, React, TypeScript, and Supabase**. TaskFlow provides a centralized interface for organizing tasks, tracking progress, managing priorities, and monitoring deadlines through an intuitive dashboard.
 
-## Features
+## Overview
 
-- User authentication and account management
-- Create, view, edit, and delete tasks
-- Task status tracking: Pending, In Progress, and Completed
-- Task priorities and due dates
-- Search and filter tasks
-- Dashboard statistics
-- Supabase database integration
-- Real-time task updates
-- Responsive user interface
+TaskFlow is designed to simplify everyday task management through a structured workflow and persistent database integration. The application combines user authentication, task lifecycle management, search and filtering, and dashboard statistics in a responsive web interface.
 
-## Tech Stack
+This project demonstrates practical full-stack development concepts, including client-side state management, authentication integration, database operations, and real-time event handling.
 
-- Next.js
-- React
-- TypeScript
-- Supabase Authentication
-- Supabase PostgreSQL
-- Supabase Realtime
+## Key Features
 
-## Getting Started
+- **User Authentication:** Account registration, sign-in, and account recovery workflows.
+- **Task CRUD Operations:** Create, retrieve, update, and delete tasks.
+- **Task Status Management:** Organize tasks as Pending, In Progress, or Completed.
+- **Priority Management:** Categorize tasks by Low, Medium, and High priority.
+- **Deadline Tracking:** Assign due dates and identify overdue tasks.
+- **Search and Filtering:** Find tasks using search terms and status filters.
+- **Dashboard Analytics:** View task totals, workflow status, and overdue counts.
+- **Real-Time Updates:** Synchronize task changes using Supabase Realtime.
+- **Responsive User Interface:** Support task management across different screen sizes.
+- **Cloud Database Integration:** Persist task data using Supabase PostgreSQL.
 
-1. Clone this repository.
-2. Install dependencies using `npm install`.
-3. Configure your Supabase URL and publishable key in `.env.local`.
-4. Start the development server using `npm run dev`.
-5. Open `http://localhost:3000` in your browser.
+## Technology Stack
 
-## Environment Variables
+| Category | Technology |
+|---|---|
+| Framework | Next.js |
+| UI Library | React |
+| Programming Language | TypeScript |
+| Backend Services | Supabase |
+| Database | PostgreSQL |
+| Authentication | Supabase Auth |
+| Real-Time Communication | Supabase Realtime |
+| Package Manager | npm |
+| Version Control | Git and GitHub |
 
-Configure the following variables in `.env.local` using your own Supabase project credentials:
+## Application Architecture
 
-- `NEXT_PUBLIC_SUPABASE_URL`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+TaskFlow follows a modern web application architecture:
 
-Never commit `.env.local` or other files containing secrets to GitHub.
-
-## Project
-
-Built as a full-stack task management application for learning and demonstrating authentication, database operations, and real-time updates.
+1. **Presentation Layer:** Next.js and React provide the user interface
